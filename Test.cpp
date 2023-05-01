@@ -88,24 +88,38 @@ TEST_CASE("--"){
     CHECK_EQ((c--)+3,9.0/2);
 } 
 TEST_CASE("==,<=,>="){
-    Fraction a(1,3), b(2,3),c(6,4),d(3,4);
+    Fraction a(1,3), b(2,3),c(6,4),d(3,4),e(3,9);
     CHECK(a==a);
     CHECK(a<=a);
     CHECK(a>=a);
     CHECK(a<=b);
     CHECK_FALSE(a>=b);
     CHECK(c>=d);
+    CHECK(a==e);
+    CHECK(-a==-e);
+    CHECK(a==1.0/3);
+    CHECK(a==0.333);
+    CHECK(a<=1);
+    CHECK_FALSE(a>=1);
+
 }
 TEST_CASE("<,>"){
-    Fraction a(1,3), b(2,3),c(6,4),d(3,4);
+    Fraction a(1,3), b(2,3),c(6,4),d(3,4),e(-1,2);
     CHECK_FALSE(a<a);
     CHECK_FALSE(a>a);
     CHECK(a<b);
     CHECK_FALSE(a>b);
     CHECK(c>d);
+    CHECK(e<a);
+    CHECK(e<0);
+
 }
 TEST_CASE("<<,>>"){
     Fraction a(1,3), b(2,3),c(6,4),d(3,4);
+    istringstream is1("5 9");
+    istringstream is2("-5 -9"); 
+    CHECK_NOTHROW(is1 >> b);
+    CHECK_NOTHROW(is2 >> b);
     CHECK_NOTHROW(cout << c << endl);
     CHECK_NOTHROW(cout << c+a << endl);
     CHECK_NOTHROW(cout << c << endl);
@@ -116,5 +130,4 @@ TEST_CASE("combinatoin"){
     CHECK_EQ(b/a*d,3.0/8);
     CHECK_EQ(a+-b-c,-11.0/6);
     CHECK_EQ(0/a,0);
-
 }

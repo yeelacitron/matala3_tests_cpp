@@ -2,13 +2,14 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
+ 
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Apr 28 14:16:40 2023
+# Make data base, printed on Mon May  1 10:39:18 2023
 
 # Variables
 
@@ -61,7 +62,7 @@ VSCODE_CODE_CACHE_PATH = /home/vboxuser/.config/Code/CachedData/704ed70d4fd1c6bd
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.UUS421
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.J1R631
 # default
 .LOADED := 
 # default
@@ -99,7 +100,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 165260
+VSCODE_PID = 2318
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -107,7 +108,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/Ubuntu:@/tmp/.ICE-unix/1537,unix/Ubuntu:/tmp/.ICE-unix/1537
+SESSION_MANAGER = local/Ubuntu:@/tmp/.ICE-unix/1542,unix/Ubuntu:/tmp/.ICE-unix/1542
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,7 +158,7 @@ SNAP_USER_COMMON = /home/vboxuser/snap/code/common
 # environment
 SNAP = /snap/code/126
 # environment
-INVOCATION_ID = 3f4d69fbe0c046afb84857ec3cf0cafd
+INVOCATION_ID = c61062732ae14753930dc10cb5472c7a
 # environment
 SNAP_REVISION = 126
 # environment
@@ -195,7 +196,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 1562
+SYSTEMD_EXEC_PID = 1565
 # environment
 DISPLAY = :0
 # environment
@@ -209,9 +210,9 @@ SNAP_DATA = /var/snap/code/126
 # environment
 SNAP_CONTEXT = dt6pliC6R8T3hq-swzucBsARS-tKzXBoDh85_unxkz0mA2tgyTXn
 # environment
-MANAGERPID = 1388
+MANAGERPID = 1401
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 165172
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2224
 # environment
 _ = /snap/code/126/usr/share/code/code
 # environment
@@ -221,7 +222,7 @@ GDK_PIXBUF_MODULE_FILE = /home/vboxuser/snap/code/common/.cache/gdk-pixbuf-loade
 # environment
 GIO_MODULE_DIR = /home/vboxuser/snap/code/common/.cache/gio-modules
 # environment
-JOURNAL_STREAM = 8:23962
+JOURNAL_STREAM = 8:23887
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -279,8 +280,8 @@ GDMSESSION = ubuntu
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
- 
 # Load=133/1024=13%, Rehash=0, Collisions=7/175=4%
+ 
 
 # Pattern-specific Variable Values
 
@@ -288,10 +289,10 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2051, inode 2364029): 17 files, no impossibilities.
+# . (device 2051, inode 2364029): 15 files, no impossibilities.
 # sources (device 2051, inode 2391571): 4 files, no impossibilities.
 
-# 21 files, no impossibilities in 2 directories.
+# 19 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -405,10 +406,9 @@ Test.o:
 # strcache buffers: 1 (0) / strings = 37 / storage = 345 B / avg = 9 B
 # current buf: size = 8162 B / used = 345 B / count = 37 / avg = 9 B
 
-# strcache performance: lookups = 57 / hit rate = 35%
+# strcache performance: lookups = 55 / hit rate = 32%
 # hash-table stats:
- 
-# Load=37/8192=0%, Rehash=0, Collisions=0/57=0%
-# Finished Make data base on Fri Apr 28 14:16:40 2023
+# Load=37/8192=0%, Rehash=0, Collisions=0/55=0%
+# Finished Make data base on Mon May  1 10:39:18 2023
 
  

@@ -15,7 +15,7 @@ using namespace std;
         return a;
     }
     Fraction Fraction::operator*(const Fraction  &other) const{
-        Fraction a(1,1);
+        Fraction a(this->numer*other.numer,this->denoom*other.denoom);
         return a;
     }
     Fraction Fraction::operator/(const Fraction  &other) const{
