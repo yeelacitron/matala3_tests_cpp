@@ -7,11 +7,11 @@ namespace ariel{
     class Fraction{
         private:
             int numer;
-            int denoom;
+            int denom;
 
         public:
-            Fraction(int a, int b): denoom(a),numer(b){
-            }
+            Fraction(int a, int b);
+            Fraction(float a);
             Fraction operator+(const Fraction  &other) const;
             Fraction operator-(Fraction const &other) const;
             Fraction operator*(Fraction const &other) const;
@@ -25,7 +25,7 @@ namespace ariel{
             //friend fuction
             friend std::ostream& operator<<(std::ostream& output, const Fraction& c);
             friend std::istream& operator>>(std::istream& input, const Fraction& c);
-            friend Fraction operator*(const float &d,Fraction &other);
+            friend Fraction operator*(const float &d,const Fraction &other);
             friend Fraction operator*(const Fraction &frac,const float &other);
             friend Fraction operator+(const float &d,const Fraction &other);
             friend Fraction operator+(const Fraction &frac,const float &other);
